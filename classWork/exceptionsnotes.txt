@@ -1,0 +1,15 @@
+try{
+    //some code that could throw an exception
+} catch (Exception e) {
+    //do something with the exception/tell the user
+    //what went wrong
+    //can catch multiple things
+    
+} finally {
+    //always executes no matter what
+
+}
+
+public void method() throws Exception {
+    //some code that could throw a checked exception
+}
