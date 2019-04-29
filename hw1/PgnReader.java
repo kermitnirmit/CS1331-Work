@@ -21,7 +21,6 @@ public class PgnReader {
         {"P", "P", "P", "P", "P", "P", "P", "P"},
         {"R", "N", "B", "Q", "K", "B", "N", "R"}
     };
-
     public static String tagValue(String tagName, String game) {
         int index = game.indexOf(tagName);
         int quoteFinder = index + tagName.length() + 2;
